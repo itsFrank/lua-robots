@@ -1,0 +1,33 @@
+{
+	"name": "LuaRobots",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedFirst": {
+			"$className": "ReplicatedFirst",
+      		"$path": "src/ReplicatedFirst"
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$path": "src/ReplicatedStorage",
+			"Models": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": true
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+      		"$path": "src/ServerScriptService"
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+      		"$path": "src/ServerStorage"
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+        		"$path": "src/StarterPlayerScripts"
+			}
+		}
+	}
+}
